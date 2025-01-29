@@ -119,3 +119,47 @@ box-shadow: 0 10px 20px 0px  rgba(0, 0, 0, 0.15);
     background: transparent;
     color: black;
 }
+
+@media only screen and (max-width: 600px) {
+    .buttons button {
+        height: 40px;
+        display: flex;
+        align-items: center;
+        margin: 5px;
+        cursor: pointer;
+        justify-content: center;
+        font-weight: 600;
+        font-size: medium;
+    }
+
+    .buttons button img {
+        width: 18%;
+        margin-right: 10px;
+    }
+
+    .tweet {
+        background: transparent;
+        color: black;
+    }
+
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .header h2 {
+        font-size: 150%;
+    }
+
+    .container blockquote {
+        font-size: 120%;
+    }
+
+    .buttons button {
+        font-size: small;
+    }
+
+    .buttons button img {
+        width: 15%;
+    }
+}
