@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    
+}
+
+body{
+background-image: url(spiral-staircase-877834_1920.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+
+}
+
+.container{
+background: #fff;
+width: 50%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+padding: 40px;
+border-radius: 10px;
+text-align: center;
+box-shadow: 0 10px 20px 0px  rgba(0, 0, 0, 0.15);
+
+}
+
+.header h2
+{
+    font-size: 200%;
+    margin-bottom: 10%;
+    position: relative;
+
+}
+.header h2::after{
+
+    content: '';
+    width: 30%;
+    height: 7%;
+    border-radius: 3px;
+    background: rgb(23, 124, 229);
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container blockquote{
+
+    font-size: 150%;
+    min-height: 100px;
+
+}
+
+.container blockquote::after, .container blockquote::before{
+
+    content: '"';
+}
+
+.container span{
+
+    display: block;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+
+}
+
+.container span::before{
+
+    content: '';
+    width: 20%;
+    height: 2px;
+    background: rgb(23, 124, 229);
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    left: -40px;
+}
+
+.buttons{
+
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+ button {
+
+    background: rgb(23, 124, 229);
+    color: #fff;
+    border-radius: 25px;
+    border: 1px solid rgb(23, 124, 229);
+    width: 25%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+   justify-content: center;
+   font-weight: 600;
+   font-size: medium;
+  
+}
+
+.buttons button img{
+
+    width: 18%;
+    margin-right:10px ;
+}
+
+.tweet {
+
+    background: transparent;
+    color: black;
+}
