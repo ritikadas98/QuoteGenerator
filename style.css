@@ -17,6 +17,7 @@ background-size: cover;
 
 .container{
 background: #fff;
+opacity: 0.96;
 width: 50%;
 position: absolute;
 top: 50%;
